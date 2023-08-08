@@ -765,8 +765,8 @@
   .home-container01 {
     display: none;
   }
+  /*
   .store-banner-store-banner {
-    background-color: red;
     flex-direction: column; /* Change the direction to column */
     align-items: center; /* Center align items */
     padding: 20px; /* Increase padding for better spacing */
@@ -776,9 +776,8 @@
     width: 100%; /* Make the images span the full width */
     max-width: 200px; /* Set a maximum width for the images */
     height: auto; /* Maintain aspect ratio */
-    margin: 10px 0;
-    border: 2px solid blue;/* Add margin for spacing */
-  }
+    margin: 10px 0;/* Add margin for spacing */
+  }*/
   .home-bot {
     width: 100%;
   }
