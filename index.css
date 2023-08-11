@@ -378,7 +378,8 @@
   font-size: 72px;
 }
 .home-image2 {
-  width: 320px;
+  margin-right: 40px;
+  width: 250px;
   object-fit: cover;
 }
 .home-turquoise-cirble {
@@ -466,7 +467,7 @@
   background-color: var(--dl-color-purple-100);
 }
 .home-image3 {
-  width: 360px;
+  width: 300px;
   margin-top: 100px;
   object-fit: cover;
 }
@@ -534,7 +535,7 @@
   top: -100px;
   left: auto;
   right: var(--dl-space-space-doubleunit);
-  width: 232px;
+  width: 200px;
   bottom: auto;
   position: absolute;
   object-fit: cover;
@@ -543,7 +544,7 @@
   top: auto;
   left: var(--dl-space-space-doubleunit);
   right: auto;
-  width: 232px;
+  width: 200px;
   bottom: -100px;
   position: absolute;
   object-fit: cover;
