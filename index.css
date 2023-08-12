@@ -573,6 +573,7 @@
 }
 .home-image6 {
   object-fit: cover;
+  height: 10vh;
 }
 .home-container15 {
   display: flex;
