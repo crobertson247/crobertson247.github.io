@@ -640,7 +640,7 @@
   transition: 0.3s;
 }
 .home-icon13:hover {
-  fill: var(--dl-color-purple-default);
+  fill: #C13584;
 }
 .home-link5 {
   display: contents;
@@ -654,15 +654,27 @@
   flex-direction: column;
   background-color: var(--dl-color-gray-900);
 }
-.home-icon15 {
+.home-icon15{
   fill: var(--dl-color-gray-white);
   width: var(--dl-size-size-unit);
   height: var(--dl-size-size-unit);
   transition: 0.3s;
 }
-.home-icon15:hover {
-  fill: var(--dl-color-pink-default);
+.home-link5:hover .home-container19 .home-icon17 path{
+  fill: #4267B2;  /* A darker shade for hover effect */
 }
+#svg2 {
+  display: none;
+}
+
+.home-link5:hover #svg1 {
+  display: none;
+}
+
+.home-link5:hover #svg2 {
+  display: inline-block; /* or block, depending on your layout */
+}
+
 .home-link6 {
   display: contents;
 }
@@ -703,7 +715,7 @@
   transition: 0.3s;
 }
 .home-icon19:hover {
-  fill: var(--dl-color-orange-default);
+  fill: #ff0000;
 }
 @media(max-width: 991px) {
   .home-container01 {
