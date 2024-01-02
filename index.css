@@ -100,6 +100,18 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.home-logo a{
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+#effective-date {
+  font-size: 16px;
+  color: #999;
+  font-family: 'Arial', sans-serif;
+}
+
 .home-image {
   width: 8vh;
   object-fit: cover;
@@ -819,4 +831,28 @@
   }
   .home-text09{
     font-size: 50px;
+}
+
+.privacy-policy {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+ol {
+  list-style-type: decimal;
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+strong {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 0;
 }
