@@ -754,6 +754,19 @@
 .home-icon19:hover {
   fill: #ff0000;
 }
+.support-link {
+  color: #3498db; /* Change text color to light blue */
+  font-weight: bold; /* Make the text bold */
+  //text-decoration: underline; /* Add an underline */
+  font-family: 'Arial', sans-serif; /* Change the font family */
+}
+
+/* Style the hover effect for better user interaction */
+.support-link:hover {
+  color: #0000FF; /* Change text color on hover */
+}
+
+
 @media(max-width: 991px) {
   .home-container01 {
     //display: none;
@@ -831,6 +844,7 @@
   }
   .home-text09{
     font-size: 50px;
+  }
 }
 
 .privacy-policy {
@@ -856,3 +870,4 @@ strong {
 p {
   margin-bottom: 0;
 }
+
