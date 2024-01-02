@@ -101,9 +101,34 @@
   justify-content: space-between;
 }
 .home-image {
-  width: 100px;
+  width: 8vh;
   object-fit: cover;
+  margin-right: 10px;
 }
+#presentpal {
+  font-size: 24px;
+  color: black;
+  font-family: 'Arial', sans-serif;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.home-image6 {
+  max-width: 100%;
+  max-height: 100%;
+  margin-right: 10px; /* Adjust the margin to create space between the image and the text */
+}
+
+#presentpal-footer{
+  margin-top: 12px;
+  font-size: 24px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+}
+
 .home-menu {
   border: 2px dashed rgba(120, 120, 120, 0.4);
   display: flex;
