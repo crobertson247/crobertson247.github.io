@@ -630,6 +630,7 @@
 .home-text21 {
   transition: 0.3s;
   white-space: nowrap;
+  margin-right: var(--dl-space-space-unit);
 }
 .home-text21:hover {
   color: var(--dl-color-turquoise-default);
