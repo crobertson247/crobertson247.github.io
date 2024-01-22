@@ -871,3 +871,11 @@ p {
   margin-bottom: 0;
 }
 
+.content-heading {
+  text-align: center;
+}
+
+.delete{
+  text-align: center;
+}
+
