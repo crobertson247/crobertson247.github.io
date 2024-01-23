@@ -5,7 +5,7 @@ async function deleteUser(email, password) {
             redirect: 'follow'
           };
           
-          fetch("https://us-central1-presentpal-5de5e.cloudfunctions.net/app/DeleteUser?email=cian.robert@gmail.com&password=cian301", requestOptions)
+          fetch(`https://us-central1-presentpal-5de5e.cloudfunctions.net/app/DeleteUser?email=${email}&password=${password}`, requestOptions)
             .then(response => response.text())
             .then(result => console.log(result))
             .catch(error => console.log('error', error));
