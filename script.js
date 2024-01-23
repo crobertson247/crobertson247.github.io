@@ -34,17 +34,17 @@ async function deleteUser(email, password) {
   {
       if(!confirm('Are you sure?')) {
           e.preventDefault();
-          console.log('Account not deleted');
+          alert('Account not deleted');
       }else{
           //perform delete here using cloud function
           console.log('Starting Account delete');
           try{
-          const email = document.getElementById('email').value;
-          console.log('email: ' + email);
-          const password = document.getElementById('password').value;
-          deleteUser(email, password);
+            const email = document.getElementById('email').value;
+            console.log('email: ' + email);
+            const password = document.getElementById('password').value;
+            deleteUser(email, password);
           }catch(err){
-              console.log('Error: ' + err);
+              alert('Error deleting user please contact support for further assistance');
           }
       }
   }
