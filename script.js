@@ -20,6 +20,8 @@ async function deleteUser(email, password) {
       if (statusCode === 200) {
         // User was successfully deleted
         alert('User deleted successfully');
+        const form = document.getElementById('deleteForm');
+        form.reset();
       } else if(statusCode === 400){
             alert("Email or password is incorrect");
       }else{
