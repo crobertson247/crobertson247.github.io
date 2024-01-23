@@ -1,13 +1,14 @@
 async function deleteUser(email, password) {
     try{
-      const response = await fetch(`https://us-central1-presentpal-5de5e.cloudfunctions.net/app/DeleteUser?email=${email}&password=${password}`, {
-          method: 'POST',
-          headers: {
-            'Accept': 'application/json',
-            'Content-Type': 'application/json'
-          },
-          body: JSON.stringify({ "email": email,  "password": password }),
-      });
+        var requestOptions = {
+            method: 'POST',
+            redirect: 'follow'
+          };
+          
+          fetch("https://us-central1-presentpal-5de5e.cloudfunctions.net/app/DeleteUser?email=cian.robert@gmail.com&password=cian301", requestOptions)
+            .then(response => response.text())
+            .then(result => console.log(result))
+            .catch(error => console.log('error', error));
 
       const result = await response.json();
       //get status code
