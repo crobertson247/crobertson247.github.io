@@ -43,6 +43,7 @@ async function deleteUser(email, password) {
             console.log('email: ' + email);
             const password = document.getElementById('password').value;
             deleteUser(email, password);
+            e.preventDefault();
           }catch(err){
               alert('Error deleting user please contact support for further assistance');
           }
