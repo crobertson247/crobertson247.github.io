@@ -1,0 +1,18 @@
+name: Deploy to Cloud Function
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Deploy to Cloud Function
+      run: |
+        curl -X POST -H "Content-Type: application/json" -d '{"email":"user@example.com","password":"password123"}' "${{ secrets.CLOUD_FUNCTION_URL }}"
