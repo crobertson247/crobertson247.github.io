@@ -30,7 +30,7 @@ async function deleteUser(email, password) {
       }
     }catch(err){
         console.log('Error: ' + err);
-        alert("in catch block")
+        alert("Error deleting user please contact support for further assistance")
     } 
   }
   function clicked(e)
