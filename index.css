@@ -618,6 +618,7 @@
   align-items: center;
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: row;
+  gap: 20px;
   justify-content: flex-start;
 }
 .home-text20 {
@@ -650,6 +651,10 @@
   justify-content: space-between;
 }
 .home-text22 {
+  color: var(--dl-color-gray-300);
+  margin-top: var(--dl-space-space-unit);
+}
+.home-text23 {
   color: var(--dl-color-gray-300);
   margin-top: var(--dl-space-space-unit);
 }
@@ -822,7 +827,12 @@
     margin-top: var(--dl-space-space-unit);
     margin-bottom: var(--dl-space-space-unit);
   }
+  .home-text23 {
+    margin-top: var(--dl-space-space-unit);
+    margin-bottom: var(--dl-space-space-unit);
+  }
 }
+
 @media(max-width: 479px) {
   .home-header {
     padding-right: 2rem;
